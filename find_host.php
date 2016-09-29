@@ -23,8 +23,7 @@ if (!$stmt) {
  ' - '.$db->error);
 }
 
-
-
+echo "asdasdasdasdasdasd";
 
 // hubungkan "data" dengan prepared statements
 $stmt->bind_param("s", $id);
